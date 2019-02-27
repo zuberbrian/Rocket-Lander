@@ -44,7 +44,7 @@ RenderSettings:
 LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 11
-  m_GIWorkflowMode: 0
+  m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -89,7 +89,8 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000002, guid: 6a867694da5b30747b13d8eadcd0f104,
+    type: 2}
   m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
@@ -850,7 +851,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4719524249171132, guid: 7945a5dc4ca32e944a9388bbdb2f5d1e, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7945a5dc4ca32e944a9388bbdb2f5d1e, type: 2}
@@ -1589,7 +1590,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4105707226587500, guid: ece3a7b6098b430449dfc71288d8bafd, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1769326208155186, guid: ece3a7b6098b430449dfc71288d8bafd, type: 2}
       propertyPath: m_TagString
@@ -1710,11 +1711,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4260023045841336, guid: 105dd135212d9d14e978f29d7ef2c1a7, type: 2}
       propertyPath: m_LocalScale.x
-      value: 3.1832995
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4260023045841336, guid: 105dd135212d9d14e978f29d7ef2c1a7, type: 2}
       propertyPath: m_LocalScale.z
-      value: 2.361213
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 105dd135212d9d14e978f29d7ef2c1a7, type: 2}
@@ -2169,7 +2170,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4663067189213904, guid: bc86afb057e008548a8580e7feab8d59, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 51.35
+      value: 54.5
       objectReference: {fileID: 0}
     - target: {fileID: 4663067189213904, guid: bc86afb057e008548a8580e7feab8d59, type: 2}
       propertyPath: m_LocalPosition.z
@@ -2197,7 +2198,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4663067189213904, guid: bc86afb057e008548a8580e7feab8d59, type: 2}
       propertyPath: m_LocalScale.y
-      value: 19.42263
+      value: 27.055725
       objectReference: {fileID: 0}
     - target: {fileID: 4663067189213904, guid: bc86afb057e008548a8580e7feab8d59, type: 2}
       propertyPath: m_LocalScale.x
@@ -2214,6 +2215,24 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bc86afb057e008548a8580e7feab8d59, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &1594561600 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1121810462157622, guid: bc86afb057e008548a8580e7feab8d59,
+    type: 2}
+  m_PrefabInternal: {fileID: 1594561599}
+--- !u!114 &1594561601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1594561600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1a7995229c1a284091d7e1dad5cd9c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementVector: {x: 0, y: -15, z: 0}
+  movementFactor: 0
 --- !u!1001 &1662312201
 Prefab:
   m_ObjectHideFlags: 0
@@ -2314,7 +2333,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4162550795902956, guid: 750878e64ceb2344bbc84db47cb225e2, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4162550795902956, guid: 750878e64ceb2344bbc84db47cb225e2, type: 2}
       propertyPath: m_LocalScale.x
@@ -2509,7 +2528,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4540076632664718, guid: 9dd2f192e1e92ce42b7d322f72280d97, type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9dd2f192e1e92ce42b7d322f72280d97, type: 2}
@@ -3120,7 +3139,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4924793922686372, guid: 1351d34411728174784c96a472fb205a, type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1351d34411728174784c96a472fb205a, type: 2}
