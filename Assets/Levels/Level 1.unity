@@ -1980,17 +1980,7 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 82735632156002632, guid: f877b493b06f526458a76bbb30957efd,
-        type: 2}
-      propertyPath: m_PlayOnAwake
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4594788019731850, guid: f877b493b06f526458a76bbb30957efd, type: 2}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 6.4170003
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 82735632156002632, guid: f877b493b06f526458a76bbb30957efd, type: 2}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f877b493b06f526458a76bbb30957efd, type: 2}
   m_IsPrefabAsset: 0
 --- !u!4 &1822604846 stripped
